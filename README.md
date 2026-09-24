@@ -6,7 +6,6 @@ Backdoor attacks are a serious security threat to deep neural networks (DNNs) an
 ## Repository layout
 
 ```
-.
 ├── models.py                          # Architectures for all datasets (shared)
 ├── datasets.py                        # Neuromorphic dataset loading (shared)
 │
@@ -218,4 +217,32 @@ Trigger parameters are encoded into the directory name (`df1` = delay 1, `sf0.1`
 each other.
 
 
+---
 
+## Acknowledgment
+
+Parts of this codebase are adapted from the [Sneaky Spikes](https://github.com/GorkaAbad/Sneaky-Spikes) repository by Gorka Abad et al., accompanying the paper *"Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data"* (NDSS 2024). We thank the authors for making their code publicly available.
+
+---
+
+## Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{miah2026tbackdoor,
+  title   = {T-Backdoor: Exploiting Temporal Redundancy in Neuromorphic Data for Spike-preserving Backdoor Attacks on SNNs},
+  author  = {Miah, Abdullah Arafat and Vu, Kevin and Bi, Yu},
+  journal = {arXiv},
+  year    = {2026}
+}
+```
+
+---
+
+## Contact
+
+For questions or issues regarding the code, please open a GitHub issue or contact:
+
+- Abdullah Arafat Miah — [abdullaharafat.miah@uri.edu](mailto:abdullaharafat.miah@uri.edu)
+- Yu Bi — [yu_bi@uri.edu](mailto:yu_bi@uri.edu)
