@@ -1,7 +1,7 @@
+## Sample Codes for the paper: 'T-Backdoor: Exploiting Temporal Redundancy in Neuromorphic Data for Spike-preserving Backdoor Attacks on SNNs'
+
 ## Repository layout
 
-```
-.
 ├── models.py                          # Architectures for all datasets (shared)
 ├── datasets.py                        # Neuromorphic dataset loading (shared)
 │
