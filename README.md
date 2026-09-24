@@ -1,7 +1,12 @@
 ## Sample Codes for the paper: 'T-Backdoor: Exploiting Temporal Redundancy in Neuromorphic Data for Spike-preserving Backdoor Attacks on SNNs'
 
+## Abstract
+Backdoor attacks are a serious security threat to deep neural networks (DNNs) and remain largely underexplored for spiking neural networks (SNNs). Existing attacks primarily introduce spatiotemporal triggers that induce deviations in the spike distribution of poisoned samples relative to their clean counterparts. To address this limitation, this work proposes a novel backdoor attack on SNNs, termed \textbf{T-Backdoor}, which operates using purely temporal triggers such as \textit{Rate}, \textit{Latency}, and \textit{Jitter} without introducing any spatial perturbation, making the shift in spike distributions significantly harder to detect. Through extensive experiments on three benchmark neuromorphic datasets: N-MNIST, CIFAR10-DVS, and N-Caltech101, and evaluation against seven baseline backdoor defense methods, we demonstrate that T-Backdoor achieves a near-perfect 100\% attack success rate (ASR) in both single target and multi target settings with only minor degradation in clean accuracy, while remaining robust against existing backdoor detection and mitigation techniques.
+
 ## Repository layout
 
+```
+.
 ├── models.py                          # Architectures for all datasets (shared)
 ├── datasets.py                        # Neuromorphic dataset loading (shared)
 │
